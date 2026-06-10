@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    padding: 30px;
+}
+
+
+.menu-tabla {
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.menu-tabla td {
+    background-color: #4a90e2; 
+    border: 1px solid #1c4b82; 
+    padding: 15px 40px;
+    text-align: center;
+}
+
+.menu-tabla td a {
+    color: #1c4b82;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+
+.menu-tabla td.activo {
+    background-color: #2a64ad;
+}
+
+.menu-tabla td.activo a {
+    color: white; 
+}
+
+
+
+.caja-azul {
+    background-color: #4ebcd5; 
+    border: 6px solid #1d5288;   
+    border-radius: 35px;     
+    width: 650px;
+    padding: 40px;
+    display: flex;              
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formulario-busqueda {
+    width: 70%;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.campo:last-child {
+    margin-bottom: 0;
+}
+
+.campo label {
+    width: 90px;
+    font-weight: bold;
+    color: #1d5288;
+    font-size: 16px;
+}
+
+.campo input {
+    flex: 1;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+
+.seccion-boton {
+    width: 25%;
+    text-align: right;
+}
+
+.btn-buscar {
+    background-color: white;
+    color: #1d5288;
+    border: 1px solid #1d5288;
+    padding: 30px 20px;       
+    font-size: 18px;
+    font-style: italic;       
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-buscar:hover {
+    background-color: #f0f0f0;
+}
